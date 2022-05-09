@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+html{
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --primary-color: hsla(170, 100%, 26%);
+    --section-blue: hsla(202, 88%, 76%);
+
+}
+
+body{
+    font-size: 16px;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+   
+}
+
+/* menu */
+
+.menu{
+    background-color: var(--primary-color);
+    height: 7.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu a{
+    color: white;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    font-weight: bold;
+}
+
+
+/* Header conteudo */
+
+header .conteudo{
+    margin-left: 2.1rem;
+    margin-left: 2.1rem;
+    height: 78.2rem;
+}
+
+.conteudo h1{
+    font-size: 1.4rem;
+    margin-top: 2.8rem;
+    margin-bottom: 2.8rem;
+    font-weight: bold;
+}
+
+.conteudo h2{
+    font-size: 1.6rem;
+    margin-bottom: 3.3rem;
+    font-weight: bold;
+}
+
+.conteudo p{
+margin-bottom: 3.3rem;
+}
+
+.conteudo button{
+    background-color: var(--primary-color);
+    height: 5.2rem;
+    width: 22.7rem;
+    color: white;
+    border-radius: 4rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7.3rem;
+    cursor: pointer;
+}
+
+.conteudo figure{
+    margin-bottom: 10.5rem;
+    
+}
+
+
+/* SERVIÇOS */
+
+#servicos{
+    background-color: var(--section-blue);
+}
+
+#servicos h2{
+    color: var(--primary-color);
+}
