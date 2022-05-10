@@ -14,7 +14,14 @@ html{
 :root{
     font-size: 62.5%;
     --primary-color: hsla(170, 100%, 26%);
+    --secondary-color: hsla(210, 9%, 31%);
     --section-blue: hsla(202, 88%, 76%);
+    --section-yellow: hsla(72, 87%, 79%);
+    --section-green: hsla(133, 87%, 79%);
+    --section-brown: hsla(0, 8%, 20%);
+    --section-black: hsla(0, 0%, 15%);
+    --color-check: hsla(148, 23%, 89%);
+
 
 }
 
@@ -70,7 +77,7 @@ header .conteudo{
 margin-bottom: 3.3rem;
 }
 
-.conteudo button{
+.agendar{
     background-color: var(--primary-color);
     height: 5.2rem;
     width: 22.7rem;
@@ -88,8 +95,12 @@ margin-bottom: 3.3rem;
 }
 
 .conteudo figure{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 10.5rem;
-    
+    width: 323px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -97,8 +108,116 @@ margin-bottom: 3.3rem;
 
 #servicos{
     background-color: var(--section-blue);
+    height: 1799px;
 }
 
 #servicos h2{
     color: var(--primary-color);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding-top: 2.9rem;
+    margin-bottom: 1.6rem;
+}
+
+#servicos .paragrafo{
+   font-size: 3rem; 
+   color: var(--secondary-color);
+   font-weight: bold;
+   text-shadow: var(--secondary-color) 1px 4px 4px;
+   margin-bottom: 3rem;
+}
+
+.artigos{
+    display: grid;
+    gap: 3rem;
+    justify-content: center;
+    text-align: justify;
+    
+
+}
+
+article{
+    display: grid;
+    border: none;
+    background-color: white;
+    width: 30.3rem;
+    height: 18.3rem;
+    padding: 2.4rem;
+    border-radius: 0.6rem;
+    
+    
+}
+
+article img{
+    background-color: var(--color-check);
+    clip-path: circle();
+    padding: .50rem;
+    
+}
+
+article h3{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #212529;
+}
+
+article p{
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+}
+
+/* SOBRE NOS*/
+
+#sobre{
+    height: 1169px;
+    background-color: var(--section-yellow);
+    padding-left: 2.1rem;
+
+}
+
+#sobre h2{
+    padding-top: 7.4rem;
+    text-align: left;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+}
+
+#sobre h3{
+    font-size: 3rem;
+    margin-bottom: 2.4rem;
+}
+
+#sobre p{
+    font-size: 1.6rem;
+    text-align: left;
+    color: var(--secondary-color);
+    margin-bottom: 3.4rem;
+}
+
+
+/* CONTATO */
+
+#contato{
+    height: 85.1rem;
+    background-color: var(--section-green);
+
+}
+
+#contato h2{
+    padding-top: 6.5rem;
+    font-size: 3rem;
+    margin-bottom: 5.1rem;
+}
+
+/* DOJOKUN */
+#dojokun{
+    height: 70.6rem;
+    background-color: var(--section-brown);
+}
+
+footer{
+    height: 28.5rem;
+    background-color: var(--section-black);
 }
