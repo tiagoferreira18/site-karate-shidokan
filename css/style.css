@@ -10,9 +10,8 @@
 html{
     box-sizing: border-box;
     scroll-behavior: smooth; /* Comportamento de rolagem */
-
-  /* ajustando o problema de ancora comendo os titulos */
-  scroll-padding-top: 70px;
+    /* ajustando o problema de ancora comendo os titulos */
+    scroll-padding-top: 70px;
 }
 
 :root{
@@ -176,7 +175,7 @@ body{
 margin-bottom: 3.3rem;
 }
 
-#home .agendar{
+.agendar{
     background-color: var(--primary-color);
     height: 5.2rem;
     width: 22.7rem;
