@@ -9,6 +9,10 @@
 
 html{
     box-sizing: border-box;
+    scroll-behavior: smooth; /* Comportamento de rolagem */
+
+  /* ajustando o problema de ancora comendo os titulos */
+  scroll-padding-top: 70px;
 }
 
 :root{
@@ -35,69 +39,144 @@ body{
 
 /* menu */
 
-.menu{
+#header{
     background-color: var(--primary-color);
     height: 7.2rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 2;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 7.2rem;
     
 }
 
-.menu a{
+#header nav a{ 
     color: white;
     margin-left: 1.4rem;
     margin-right: 1.4rem;
     font-weight: bold;
+        
+}
+#header nav .aula a{ 
+    color: var(--primary-color);
+    font-size: 1.8rem;
     
-    
+
+}
+
+
+
+.menu{
+    display: none;
+}
+
+
+#header img{
+    cursor: pointer;
+}
+
+
+
+
+/* MENU ABERTO CLASS SHOW */
+
+.show{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 7.2rem ;
+    background-color: var(--primary-color);
+    z-index: 3;
+}
+
+.show ul{
+  display: grid;
+  row-gap: 4.8rem;
+  margin-top: 6rem;
+
+  
+}
+
+.show a{
+    color: white;
+    font-size: 2.4rem;
+}
+
+.show .aula{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    width: 22.7rem;
+    height: 5.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--primary-color);
+    border-radius: 4rem;
+}
+
+.show .alinhar{
+    display: flex;
+    justify-content: center;
+}
+.show .alinhar a{
+    padding: 10px;
+}
+
+#amburguer.show{
+    display: none;
+   
+}
+
+
+
+#close.show{
+    display: none;
     
 }
 
 
-/* Mostrar Menu */
-nav{
-    visibility: hidden;
-
-}
 
 
 
-#menu-fechado{
+/* Home conteudo */
 
-}
-/* Header conteudo */
-
-header .conteudo{
+#home.conteudo{
     margin-left: 2.1rem;
     margin-left: 2.1rem;
     height: 78.2rem;
+    background-color: #212529;
 }
 
-.conteudo h1{
+#home .conteudo h1{
     font-size: 1.4rem;
     margin-top: 2.8rem;
     margin-bottom: 2.8rem;
     font-weight: bold;
     padding-top: 10rem;
+
 }
 
-.conteudo h2{
+#home .conteudo h2{
     font-size: 1.6rem;
     margin-bottom: 3.3rem;
     font-weight: bold;
 }
 
-.conteudo p{
+#home .conteudo p{
 margin-bottom: 3.3rem;
 }
 
-.agendar{
+#home .agendar{
     background-color: var(--primary-color);
     height: 5.2rem;
     width: 22.7rem;
@@ -114,7 +193,7 @@ margin-bottom: 3.3rem;
     cursor: pointer;
 }
 
-.conteudo figure{
+#home .conteudo figure{
     display: flex;
     flex-direction: column;
     margin-bottom: 10.5rem;
