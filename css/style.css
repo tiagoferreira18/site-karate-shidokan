@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    list-style: none;
+    
 }
 
 
@@ -190,6 +190,8 @@ margin-bottom: 3.3rem;
     margin-right: auto;
     margin-bottom: 7.3rem;
     cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 #home .conteudo figure{
@@ -309,13 +311,87 @@ article p{
     margin-bottom: 5.1rem;
 }
 
+
+#contato .icon-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#contato .icon-contato img{
+    width: 20px;
+
+}
+
+#contato .icon-contato p{
+    color: var(--secondary-color);
+}
+
+#contato button{
+    margin-top: 5.92rem;
+    
+}
+
 /* DOJOKUN */
 #dojokun{
     height: 70.6rem;
     background-color: var(--section-brown);
+    color: white;
+}
+
+#dojokun h2{
+    text-transform: uppercase;
+    padding-top: 3.6rem;
+    margin-bottom: 1.8rem;
+}
+
+#dojokun ol{
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+   
+    
+}
+#dojokun ol li{
+    margin-bottom: 3.1rem;
+    
 }
 
 footer{
     height: 28.5rem;
     background-color: var(--section-black);
+    color: white;
+    
 }
+
+footer a{
+    display: block;
+    color: white;
+    margin-bottom: 3.2rem;
+    font-weight: bold;
+    font-size: 2.4rem;
+    padding-top: 5.1rem;
+    
+}
+footer p{
+    margin-bottom: 1.2rem ;
+    font-size: 1.6rem;
+}
+
+footer .icones{
+    display: flex;
+    gap: 3.2rem;
+    margin-top: 3.2rem;
+}
+
+footer .fcontainer{
+   
+    text-align: left;
+    margin-left: 2.1rem;
+    
+}
+
