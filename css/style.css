@@ -160,11 +160,11 @@ body{
 
 /* Home conteudo */
 
-#home.conteudo{
+#home{
     margin-left: 2.1rem;
     margin-left: 2.1rem;
     height: 78.2rem;
-    background-color: #212529;
+   
 }
 
 #home .conteudo h1{
@@ -347,7 +347,7 @@ article p{
 
 /* DOJOKUN */
 #dojokun{
-    height: 70.6rem;
+    height: 40.6rem;
     background-color: var(--section-brown);
     color: white;
 }
@@ -355,7 +355,7 @@ article p{
 #dojokun h2{
     text-transform: uppercase;
     padding-top: 3.6rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 3rem;
 }
 
 #dojokun ol{
@@ -481,8 +481,304 @@ footer .fcontainer{
     #header img{
         display: none;
     }
-        
+
+
+    
+/* Home conteudo */
+
+#home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 55.5rem;
+    
+    
 }
+
+#home .conteudo{
+    margin-right: 10px;
+}
+
+#home .conteudo h1{
+    text-align: left;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    padding-top: 10rem;
+
+}
+
+#home .conteudo h2{
+    text-align: left;
+    font-size: 1.8rem;
+    margin-bottom: 3.3rem;
+    font-weight: bold;
+}
+
+#home .conteudo p{
+    text-align: left;
+    margin-bottom: 3.3rem;
+    
+}
+
+.agendar{
+    background-color: var(--primary-color);
+    height: 5.2rem;
+    width: 22.7rem;
+    color: white;
+    border-radius: 4rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 7.3rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 1px;
+    
+    
+}
+
+#home .conteudo figure{
+    margin-bottom: 0rem;
+    width: 443px;
+    padding-top: 100px;
+    
+}
+
+    /* SERVIÇOS */
+
+#servicos{
+    background-color: var(--section-blue);
+    height: 938px;
+}
+
+#servicos h2{
+    color: var(--primary-color);
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    padding-top: 2.9rem;
+    margin-bottom: 1.6rem;
+}
+
+#servicos .paragrafo{
+   font-size: 3rem; 
+   color: var(--secondary-color);
+   font-weight: bold;
+   text-shadow: var(--secondary-color) 1px 4px 4px;
+   margin-bottom: 3rem;
+}
+
+.artigos{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    max-width: 136.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+article{
+    display: grid;
+    border: none;
+    background-color: white;
+    width: 30.3rem;
+    height: 18.3rem;
+    padding: 2.4rem;
+    border-radius: 0.6rem;
+    
+    
+}
+
+article img{
+    background-color: var(--color-check);
+    clip-path: circle();
+    padding: .50rem;
+    
+}
+
+article h3{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #212529;
+}
+
+article p{
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+}
+
+
+
+
+/* SOBRE NOS*/
+
+#sobre{
+    height: 900px;
+    background-color: var(--section-yellow);
+    padding-left: 2.1rem;
+
+}
+
+#sobre h2{
+    padding-top: 7.4rem;
+    text-align: left;
+    color: var(--primary-color);
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+}
+
+#sobre h3{
+    font-size: 3rem;
+    margin-bottom: 2.4rem;
+}
+
+#sobre p{
+    font-size: 1.6rem;
+    text-align: left;
+    color: var(--secondary-color);
+    margin-bottom: 3.4rem;
+    
+}
+
+
+
+
+
+/* CONTATO */
+
+#contato{
+    height: 48.6rem;
+    background-color: var(--section-green);
+
+}
+
+#contato .container-contato{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contato h2{
+    padding-top: 6.5rem;
+    font-size: 2.2rem;
+    margin-bottom: 5.1rem;
+}
+
+
+#contato .icon-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    margin-bottom: 1.5rem;
+    
+    
+}
+
+#contato .icon-contato img{
+    width: 20px;
+   
+}
+
+#contato .icon-contato p{
+    color: var(--secondary-color);
+}
+
+#contato button{
+    margin-top: 5.92rem;
+       
+}
+
+
+
+/* DOJOKUN */
+#dojokun{
+    height: 40.6rem;
+    background-color: var(--section-brown);
+    color: white;
+    
+}
+
+#dojokun h2{
+    text-transform: uppercase;
+    padding-top: 3.6rem;
+    margin-bottom: 1.8rem;
+}
+
+#dojokun .container-dojo{
+    display: flex;
+    justify-content: center;
+}
+
+#dojokun ol{
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    
+    
+}
+#dojokun ol li{
+    margin-bottom: 3.1rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+
+
+footer{
+    height: 28.5rem;
+    background-color: var(--section-black);
+    color: white;
+    
+}
+
+footer a{
+    display: block;
+    color: white;
+    margin-bottom: 3.2rem;
+    font-weight: bold;
+    font-size: 2.4rem;
+    padding-top: 5.1rem;
+    
+}
+footer p{
+    margin-bottom: 1.2rem ;
+    font-size: 1.6rem;
+}
+
+footer .icones{
+    display: flex;
+    gap: 3.2rem;
+    margin-top: 3.2rem;
+    width: 24px;
+    height: 24px;
+}
+
+footer .fcontainer{
+   display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+       
+    
+}
+
 
 /* Telas 1024 */
 
@@ -493,6 +789,15 @@ footer .fcontainer{
 
 
 
+}
+
+
+/* break point servicos */
+@media (min-width: 1113px){
+    #servicos{
+        background-color: var(--section-blue);
+        height: 700px;
+    }   
 }
 
 /* Telas 1200px */
