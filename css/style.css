@@ -313,6 +313,7 @@ article p{
 #contato{
     height: 85.1rem;
     background-color: var(--section-green);
+    max-width: 80%;
 
 }
 
