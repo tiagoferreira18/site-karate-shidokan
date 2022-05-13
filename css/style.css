@@ -788,9 +788,7 @@ footer .fcontainer{
 /* Telas 1024 */
 
 @media (min-width: 1024px){
-    body{
-        background-color: orange;
-    }
+    
 
 
 
@@ -808,7 +806,5 @@ footer .fcontainer{
 /* Telas 1200px */
 
 @media (min-width: 1200px){
-    body{
-        background-color: black;
-    }
+    
 }
