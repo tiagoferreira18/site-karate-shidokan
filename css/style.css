@@ -12,6 +12,7 @@ html{
     scroll-behavior: smooth; /* Comportamento de rolagem */
     /* ajustando o problema de ancora comendo os titulos */
     scroll-padding-top: 70px;
+    
 }
 
 :root{
@@ -57,6 +58,11 @@ body{
     
 }
 
+#header #logo{
+    text-transform: uppercase;
+    
+}
+
 #header nav a{ 
     color: white;
     margin-left: 1.4rem;
@@ -76,6 +82,8 @@ body{
 .menu{
     display: none;
 }
+
+
 
 
 #header img{
@@ -119,8 +127,11 @@ body{
     height: 5.5rem;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 4.8rem;
+    margin-bottom: 8rem;
     color: var(--primary-color);
     border-radius: 4rem;
+    border: none;
 }
 
 .show .alinhar{
@@ -316,7 +327,7 @@ article p{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: .2rem;
     margin-bottom: 1.5rem;
 }
 
@@ -395,3 +406,99 @@ footer .fcontainer{
     
 }
 
+/* -------Telas 767--------- */
+@media (min-width: 767px){
+    
+    #header{
+        background-color: white;
+        width: 100%;
+        
+              
+    }
+
+    #header .container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    #header .container a{
+        color: green;
+        
+    }
+
+    #header ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #header #show{
+        display: flex;
+        width: 100%;
+                       
+    }
+
+      
+    #header ul li a{
+        
+        font-size: 1.6rem;
+        
+    }
+
+    
+
+    #header .aula{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+    background-color: white; 
+    border: solid 1px var(--primary-color);
+    width: 18.5rem;
+    height: 3.8rem;
+    color: var(--primary-color);
+    border-radius: 4rem;
+    margin-right: 2rem;
+
+    }
+
+    #header nav .aula a{ 
+        color: var(--primary-color);
+        font-size: 1.4rem;
+        
+    
+    }
+
+    #header .alinhar{
+        display: none;
+    }
+
+
+    #header img{
+        display: none;
+    }
+        
+}
+
+/* Telas 1024 */
+
+@media (min-width: 1024px){
+    body{
+        background-color: orange;
+    }
+
+
+
+}
+
+/* Telas 1200px */
+
+@media (min-width: 1200px){
+    body{
+        background-color: black;
+    }
+}
