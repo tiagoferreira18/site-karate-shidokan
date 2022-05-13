@@ -329,6 +329,8 @@ article p{
     align-items: center;
     gap: .2rem;
     margin-bottom: 1.5rem;
+    
+    
 }
 
 #contato .icon-contato img{
@@ -629,7 +631,7 @@ article p{
 
 #sobre h2{
     padding-top: 7.4rem;
-    text-align: left;
+    text-align: center;
     color: var(--primary-color);
     font-size: 2.2rem;
     text-transform: uppercase;
@@ -646,7 +648,9 @@ article p{
     text-align: left;
     color: var(--secondary-color);
     margin-bottom: 3.4rem;
-    
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -676,7 +680,7 @@ article p{
 
 #contato .icon-contato{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: .2rem;
     margin-bottom: 1.5rem;
@@ -691,6 +695,7 @@ article p{
 
 #contato .icon-contato p{
     color: var(--secondary-color);
+    
 }
 
 #contato button{
