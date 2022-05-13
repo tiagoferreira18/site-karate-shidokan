@@ -313,7 +313,7 @@ article p{
 #contato{
     height: 85.1rem;
     background-color: var(--section-green);
-    max-width: 80%;
+    
 
 }
 
@@ -330,7 +330,7 @@ article p{
     align-items: center;
     gap: .2rem;
     margin-bottom: 1.5rem;
-    
+    width: 80%;
     
 }
 
