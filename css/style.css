@@ -398,8 +398,15 @@ footer p{
 footer .icones{
     display: flex;
     gap: 3.2rem;
-    margin-top: 3.2rem;
+        
 }
+
+footer .icones a{
+    margin-top: 2rem;
+    padding-top: 0;
+    
+}
+
 
 footer .fcontainer{
    
