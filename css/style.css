@@ -107,7 +107,7 @@ body{
 .show ul{
   display: grid;
   row-gap: 4rem;
-  margin-top: 6rem;
+  margin-top: 2rem;
 
   
 }
