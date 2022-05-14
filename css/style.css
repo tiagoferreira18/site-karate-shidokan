@@ -402,6 +402,15 @@ footer .fcontainer{
     
 }
 
+#desenvolvedor{
+    text-align: right;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}    
+
+
+
+
 /* -------Telas 767--------- */
 @media (min-width: 767px){
     
@@ -765,7 +774,7 @@ footer .fcontainer{
     width: 80%;
 }
 
-       
+   
     
 }
 
