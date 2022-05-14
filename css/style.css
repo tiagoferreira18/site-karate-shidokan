@@ -324,23 +324,9 @@ article p{
 }
 
 
-#contato .icon-contato{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .2rem;
-    margin-bottom: 1.5rem;
-    width: 80%;
-    
-}
-
-#contato .icon-contato img{
-    width: 20px;
-
-}
-
-#contato .icon-contato p{
+#contato p{
     color: var(--secondary-color);
+    
 }
 
 #contato button{
@@ -686,16 +672,6 @@ article p{
 }
 
 
-#contato .icon-contato{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: .2rem;
-    margin-bottom: 1.5rem;
-    
-    
-}
-
 #contato .icon-contato img{
     width: 20px;
    
@@ -708,7 +684,8 @@ article p{
 
 #contato button{
     margin-top: 5.92rem;
-       
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 
