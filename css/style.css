@@ -463,9 +463,11 @@ footer .fcontainer{
         align-items: center;
         
         
+        
     }
    #header #logo{
         color: var(--primary-color);
+        margin-right: 0;
         
     }
 
@@ -475,6 +477,7 @@ footer .fcontainer{
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+       
     }
 
     #header #show{
@@ -485,8 +488,7 @@ footer .fcontainer{
 
       
     #header ul li a{
-        
-        font-size: 1.6rem;
+        font-size: 1.35rem;
         
     }
 
@@ -499,17 +501,17 @@ footer .fcontainer{
     justify-content: center;
     background-color: white; 
     border: solid 1px var(--primary-color);
-    width: 18.5rem;
+    width: 16rem;
     height: 3.8rem;
     color: var(--primary-color);
     border-radius: 4rem;
-    margin-right: 2rem;
+    margin-right: .5rem;
 
     }
 
     #header nav .aula a{ 
         color: var(--primary-color);
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         
     
     }
