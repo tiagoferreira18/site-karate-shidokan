@@ -93,6 +93,42 @@ body{
 
 
 
+/* style do menu */
+
+#header nav ul li a {
+    transition: color 0.3s;
+    position: relative;
+    color: white ;
+}
+
+#header nav ul li a:hover,
+#header nav ul li a.active{
+    color: white;
+
+}
+
+#header nav ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -1.5rem;
+    transition: 0.3s;
+}
+
+
+#header nav ul li a:hover::after,
+#header nav ul li a.active::after{
+    width: 100%;
+}
+
+
+
+
+
+
 /* MENU ABERTO CLASS SHOW */
 
 .show{
@@ -428,8 +464,8 @@ footer .fcontainer{
         
         
     }
-    #header .container a{
-        color: green;
+   #header #logo{
+        color: var(--primary-color);
         
     }
 
@@ -477,6 +513,46 @@ footer .fcontainer{
         
     
     }
+
+
+/* style do menu */
+
+#header nav ul li a{
+    transition: color 0.3s;
+    position: relative;
+    color: rgba(0, 133, 111, 0.658) ;
+    
+}
+
+#header nav ul li a:hover,
+#header nav ul li a.active{
+    color: var(--primary-color);
+
+}
+
+#header nav ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    bottom: -1.5rem;
+    transition: 0.3s;
+}
+
+
+#header nav ul li a:hover::after,
+#header nav ul li a.active::after{
+    width: 100%;
+}
+
+
+
+
+
+
+
 
     #header .alinhar{
         display: none;

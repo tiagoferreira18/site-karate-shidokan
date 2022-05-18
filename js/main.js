@@ -25,3 +25,41 @@ link.addEventListener('click',()=>{
     menuClose.classList.add('show')
     menuAmburguer.classList.remove('show')
 })
+
+
+
+/* Menu ativo conforme a seção visivel na página */
+
+/* Todas as seções que possuem um id */
+const sections = document.querySelectorAll('main section[id]')
+
+function activateMenuAtCurrentSec(){
+    const checkpoint = window.pageYOffset + (window.innerHeight / 8) * 4
+
+    for(const section of sections){
+        const sectionTop = section.offsetTop
+        const sectionHeight = section.offsetHeight
+        const sectionId = section.getAttribute('id')
+
+        const checkpointStar = checkpoint >= sectionTop
+        const checkpointEnd = checkpoint<= sectionTop + sectionHeight
+
+        if(checkpointStar && checkpointEnd){
+            document.querySelector('nav ul li a[href*=' + sectionId +']').classList.add('active')
+        }else{
+            document.querySelector('nav ul li a[href*=' + sectionId +']').classList.remove('active')
+        }
+
+
+    }
+
+
+}
+
+
+    /* when scrool */
+
+    window.addEventListener('scroll', ()=>{
+        
+        activateMenuAtCurrentSec()
+    })
