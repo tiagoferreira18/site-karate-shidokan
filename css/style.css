@@ -438,11 +438,6 @@ footer .fcontainer{
     
 }
 
-#desenvolvedor{
-    text-align: right;
-    margin-right: 2rem;
-    font-size: 1.2rem;
-}    
 
 
 
@@ -861,7 +856,36 @@ footer .fcontainer{
 
 @media (min-width: 1024px){
     
+    #header ul li a{
+        font-size: 1.6rem;
+        
+        
+    }
 
+      
+
+    #header .aula{
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        justify-content: center;
+        background-color: white; 
+        border: solid 1px var(--primary-color);
+        width: 19rem;
+        height: 3.8rem;
+        color: var(--primary-color);
+        border-radius: 4rem;
+        margin-right: 2.5rem;
+    
+        }
+    
+        #header nav .aula a{ 
+            color: var(--primary-color);
+            font-size: 1.4rem;
+          
+        
+        }
+    
 
 
 }

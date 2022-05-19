@@ -55,3 +55,14 @@ function activateMenuAtCurrentSec(){
 
 
 }
+
+
+    /* when scrool */
+
+    window.addEventListener('scroll', ()=>{
+        
+        activateMenuAtCurrentSec()
+    })
+
+
+  
